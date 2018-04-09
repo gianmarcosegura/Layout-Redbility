@@ -1,0 +1,30 @@
+.content {
+    .content-title {
+        margin-top: 12rem;
+        margin-bottom: 6rem;
+        font-size: 150px;    
+        line-height: 128px;
+        font-family: "Effra Heavy";
+        span {
+            color: rgb(255,0,78);
+        }
+    }
+    .content-subtitle {
+        font-size: 45px;
+        line-height: 45px;
+        color: black;
+        font-family: "Effra Heavy";
+    }
+    .content-description {
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+        font-size: 20px;
+        line-height: 36px;
+        color: rgb(29,29,27);
+        font-family: "Roboto";
+        div {
+            display: inline-block;
+            max-width: 49.5%;
+        }
+    }
+}

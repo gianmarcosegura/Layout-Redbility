@@ -1,0 +1,23 @@
+.clients {
+    height: 570px;
+    background-color: #2f272a;
+    .clients-title {
+        margin-top: 7rem;
+        margin-bottom: 5rem;
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 42px;
+        color: rgb(255,255,255);
+        font-family: "Effra";
+        text-align: center;
+    }
+    .clients-list{
+        padding: 2rem;
+        text-align: center;
+        align-items: center;
+        div {
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 12" width="24" height="12">
+	<defs>
+		<image width="24" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAMAQMAAABC/u82AAAAAXNSR0IB2cksfwAAAAZQTFRF////AAAAVcLTfgAAAAJ0Uk5T/wDltzBKAAAAHElEQVR4nGNgYGBkAOH////DMQNDPRijioHVAQDFvRLxc8DcNwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Rectángulo 1 copia 2" href="#img1" x="0" y="0" />
+</svg>

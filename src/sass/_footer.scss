@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    margin: 2rem auto;
+    .container{
+        align-self: center;
+        .row {
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

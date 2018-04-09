@@ -1,0 +1,93 @@
+
+.header-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.6s;
+}
+
+.header-menu-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.header-menu a {
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    transition: 0.4s;
+    font-size: 45px;
+    color: rgb(132,132,132);
+    font-family: "Effra Heavy";
+    text-align: center;
+}
+
+.header-menu a:hover, .header-menu a:focus {
+    color: rgb(255,0,78);
+}
+
+.header-menu .closebtn {
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.header {
+    height: 100vh;
+    background-color: black;
+    background:url('../../dist/img/fondo0.png') no-repeat center center;
+    background-size: cover;
+    transition: 0.6s ease;
+    .header-navbar {
+        margin-top: 2rem;
+    }
+    .header-burgerButton {
+        color: white;
+        cursor: pointer;
+        padding: .2rem .8rem;
+    }
+    .header-text {
+        width: 373px;
+        letter-spacing: 1px;
+        margin-top: 5rem;
+        line-height: 42px;
+        color: rgb(255,255,255);
+        font-family: "Effra";
+        text-align: center;
+    }
+    .header-title {
+        width: 733px;
+        height: 206px;
+        margin-top: 3rem;
+        font-size: 130px;
+        line-height: 130px;
+        color: rgb(255,255,255);
+        font-family: "Effra Heavy";
+        text-align: center;
+    }
+    .dot {
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        margin: 0 2px;
+        background-color: rgb(255,255,255);
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: rgb(255,0,78);
+      }
+}

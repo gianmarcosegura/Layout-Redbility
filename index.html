@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Creado por Gianmarco">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Gianmarco Segura">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/styles.css">  
+    <title>Redbility</title>
+  </head>
+  <body>
+    <!--Inicio Header-->
+    <header id="headder" class="header">
+        <div id="headerMenu" class="header-menu">
+            <a class="closebtn" onclick="cerrarMenu()">&times;</a>
+            <div class="header-menu-content">
+                <a href="#">DISCOVER</a>
+                <a href="#">PHILOSOPHY</a>
+                <a href="#">WORK</a>
+                <a href="#">CONTACT</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <nav class="header-navbar navbar col-12">
+                    <div class="header-logo">
+                        <img src="dist/img/logo.png" alt="logo_redbility">                       
+                    </div>
+                    <div class="header-burgerButton" onclick="abrirMenu()">
+                        <img src='dist/img/menu.svg' />
+                    </div>
+                </nav>
+                <section class="header-text col-12">
+                    DISCOVER
+                </section>
+                <section class="header-title col-12">
+                    OUR NEW <br /> LOOK
+                </section>
+                <section class="header-title col-12">
+                    <span class="dot" onclick="change(0)"></span> 
+                    <span class="dot" onclick="change(1)"></span> 
+                    <span class="dot" onclick="change(2)"></span> 
+                    <span class="dot" onclick="change(3)"></span> 
+                    <span class="dot" onclick="change(4)"></span> 
+                </section>   
+        </div>        
+        </div>
+    </header>
+    <!--Cierre Header-->
+    <!--Inicio Contenido-->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <section class="content-title col-12">
+                   <span>RED</span>VOLUTION IS COMING
+                </section>
+                <section class="content-subtitle col-12">
+                    Creamos una nueva marca que por fín refleja lo que llevamos haciendo con pasión toda la vida.
+                </section>
+                <section class="content-description">
+                    <div class="col-12 col-lg-6">
+                        Team spirit and an inspiring working atmosphere are key. Reflecting this, we work with a of UX and interactive designers, developers, project managers, digital consultants, thinkers and innovators all toguether in one space. 
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        Digital consultants, thinkers and innovators all together in one space. In a enviroment that encourages flat hierarchies, identification and participation, bringing the digital world one step further.
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!--Cierre Contenido-->
+    <!--Inicio Clientes-->
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="clients-title col-12">
+                    WE LOVE OUR CLIENTS.
+                </div>
+                <div id="clients" class="clients-logos col-12">
+                    <div class="clients-list row">
+                        <div class="d-none d-lg-block col-lg-1"></div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="dist/img/ono.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="dist/img/bbva.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="dist/img/samsung.png" alt="">    
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="dist/img/roca.png" alt="">   
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="dist/img/carrefour.png" alt="">   
+                        </div>
+                        <div class="d-none d-lg-block col-lg-1"></div>
+                        <div class="d-none d-lg-block col-lg-1"></div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="dist/img/nestle.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="dist/img/nhhoteles.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="dist/img/mapfre.png" alt="">    
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="dist/img/ebay.png" alt="">   
+                        </div>
+                        <div class="col-6 col-md-12 col-lg-2">
+                            <img src="dist/img/telefonica.png" alt="">   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Cierre Clientes-->
+    <!--Inicio Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-copyright">
+                    <img src="dist/img/forma2.png" alt="">
+                    © 2018 Gianmarco Segura
+                </div>
+                <div class="footer-logo"> 
+                    <img src="dist/img/marca.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Cierre Footer-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="dist/js/index.js"></script>
+</body>
+</html>
